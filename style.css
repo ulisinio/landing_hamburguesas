@@ -199,6 +199,8 @@ body {
   cursor: pointer;
   color: #a7a7a7;
   font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
   transition: background 0.2s ease;
 }
 
@@ -217,6 +219,10 @@ body {
 .tabs input[type="radio"]:checked + label {
   border-bottom: 2px solid #DB241B;
   color: #ffffff;
+}
+
+.tabs input[type="radio"]:checked + label + .tab{
+  display: block;
 }
 
 .product {
