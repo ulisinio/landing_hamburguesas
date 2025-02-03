@@ -1,5 +1,7 @@
 # Práctica de Slider con Swiper
 Este proyecto consiste en una página web que utiliza el **plugin Swiper** para implementar sliders interactivos en la interfaz. La página incluye un slider principal con contenido destacado y un slider para productos, que permite a los usuarios navegar entre diferentes elementos de una forma dinámica y fluida.
+
+Ver página: https://ulisinio.github.io/landing_hamburguesas/
 ## Tecnologías Utilizadas
 
 -   **HTML5**: Estructuración de la página web.
