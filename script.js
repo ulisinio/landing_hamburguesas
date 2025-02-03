@@ -43,7 +43,7 @@ tabInputs.forEach(function(input) {
     input.addEventListener('change', function() {
         let id = input.value; // Corregido
         let thisSwiper = document.getElementById('swiper' + id);
-        
+
         // Verificar si el swiper existe antes de actualizarlo
         if (thisSwiper && thisSwiper.swiper) {
             thisSwiper.swiper.update();

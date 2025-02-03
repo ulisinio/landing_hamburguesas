@@ -8,6 +8,10 @@
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #080202;
   font-family: "Poppins", sans-serif;
@@ -28,10 +32,12 @@ body {
 
 .swiper-button-next {
   color: #DB241B;
+margin-left: 10px;
 }
 
 .swiper-button-prev {
   color: #DB241B;
+  margin-right: 10px;
 }
 
 .swiper-pagination-bullet {
@@ -152,7 +158,7 @@ body {
 }
 
 .botones {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .btn-1 {
@@ -163,7 +169,7 @@ body {
   font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin-right: 20px;
+  margin-right: 5px;
   border-radius: 50px;
 }
 
@@ -298,6 +304,7 @@ body {
 
 .info-txt {
   width: 50%;
+  text-align: justify;
 }
 
 .info-txt h2 {
@@ -357,7 +364,7 @@ body {
 }
 
 .txt p {
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 15px;
@@ -441,7 +448,7 @@ body {
   }
 
   .slider-txt h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .slider-txt p {
@@ -449,8 +456,8 @@ body {
   }
 
   .btn-1 {
-    padding: 10px 25px;
-    font-size: 14px;
+    padding: 10px 15px;
+    font-size: 12px;
   }
 
   .slider-img {
@@ -460,7 +467,7 @@ body {
 
   .slider-img img {
     margin-right: 0px;
-    width: 300px;
+    width: 250px;
   }
 
   .swier-horizontal > .swiper-pagination-bullets,
@@ -471,12 +478,24 @@ body {
   }
 
   .tabs {
-    padding: 50px 30px;
-  }
+    display: flex;
+    flex-wrap: wrap; /* Para evitar que los elementos se sobrepongan */
+    justify-content: space-between;
+}
 
-  .tabs label {
-    width: 33%;
-  }
+.tabs label {
+    flex: 1; /* Cada label ocupa el mismo espacio */
+    width: 33.33%;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.tab {
+    width: 100%;
+}
+
 
   .info {
     padding: 30px;
@@ -489,9 +508,10 @@ body {
   }
 
   .info-img img {
-    width: 400px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     margin-bottom: 25px;
+    object-fit: cover;
   }
 
   .info-txt {
@@ -500,7 +520,7 @@ body {
   }
 
   .info-txt h2 {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .info-txt p {
@@ -517,7 +537,7 @@ body {
   }
 
   .horario-info h2 {
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 15px;
   }
 
